@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D51E17C20705A6A0083434C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D51E17B20705A690083434C /* GoogleService-Info.plist */; };
+		2D41EF682070976100A984B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D41EF672070976100A984B3 /* GoogleService-Info.plist */; };
+		2D41EF692070976100A984B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D41EF672070976100A984B3 /* GoogleService-Info.plist */; };
+		2D41EF6A2070976100A984B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D41EF672070976100A984B3 /* GoogleService-Info.plist */; };
 		53173E014E911A9528E2E1E3 /* Pods_HungryBruins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632AD66DCA744F8CEC6DC8BC /* Pods_HungryBruins.framework */; };
 		A3AEB635270EFDEA2F706D00 /* Pods_HungryBruinsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582FCC0DA6EA25EF87570FD6 /* Pods_HungryBruinsUITests.framework */; };
 		C945AD54206EF56C002049A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945AD53206EF56C002049A9 /* AppDelegate.swift */; };
@@ -38,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D51E17B20705A690083434C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D41EF672070976100A984B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36EAE58B83BFAC997A7D1CC1 /* Pods_HungryBruinsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HungryBruinsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7C088D64323A7BC6FC6663 /* Pods-HungryBruinsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungryBruinsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HungryBruinsTests/Pods-HungryBruinsTests.release.xcconfig"; sourceTree = "<group>"; };
 		582FCC0DA6EA25EF87570FD6 /* Pods_HungryBruinsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HungryBruinsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +141,7 @@
 		C945AD52206EF56C002049A9 /* HungryBruins */ = {
 			isa = PBXGroup;
 			children = (
-				2D51E17B20705A690083434C /* GoogleService-Info.plist */,
+				2D41EF672070976100A984B3 /* GoogleService-Info.plist */,
 				C945AD53206EF56C002049A9 /* AppDelegate.swift */,
 				C945AD55206EF56C002049A9 /* ViewController.swift */,
 				C945AD57206EF56C002049A9 /* Main.storyboard */,
@@ -285,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C945AD5E206EF56C002049A9 /* LaunchScreen.storyboard in Resources */,
-				2D51E17C20705A6A0083434C /* GoogleService-Info.plist in Resources */,
+				2D41EF682070976100A984B3 /* GoogleService-Info.plist in Resources */,
 				C945AD5B206EF56C002049A9 /* Assets.xcassets in Resources */,
 				C945AD59206EF56C002049A9 /* Main.storyboard in Resources */,
 			);
@@ -295,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D41EF692070976100A984B3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D41EF6A2070976100A984B3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
