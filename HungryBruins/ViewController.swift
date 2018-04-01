@@ -90,7 +90,7 @@ class ViewController: UIViewController {
   //store the request msg to the database. let the user describe their detail information 
     @IBAction func requestA(_ sender: Any) {
        //let request = inputRequest.text
-        guard let request = inputRequest.text, !request.isEmpty else { return }
+        guard let request = inputRequest3.text, !request.isEmpty else { return }
         
 //        if let request = inputRequest.text {
             print("OK, \(request)!")
@@ -109,7 +109,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func requestS(_ sender: Any) {
-        let request = inputRequest.text
+        let request = inputRequest2.text
         if request != "" {
             let requestHandlers = requestHandler.init()
             requestHandlers.request(msg:request!)
