@@ -1,0 +1,6 @@
+framework module Pods_HungryBruinsUITests {
+  umbrella header "Pods-HungryBruinsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
